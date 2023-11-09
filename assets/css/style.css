@@ -102,22 +102,27 @@ nav ul li ul li a {
   .EDUCACIÓN {
     padding: 0px;
     background: #0E0B16;
+    display: flex;
   }
 
   .EXPERIENCIA {
     padding:0px;
     background: #0E0B16;
+    display: flex;
   }
 
   .CURSOS {
     padding: 0px;
     background: #0E0B16;
+    display:flex
   }
 
   .Portafolio {
     background:#E7DFDD;
     display: flex;
     gap: 0px;
+    padding: 2px;
+    align-self: center;
   }
 
   .Portafolio.p{
