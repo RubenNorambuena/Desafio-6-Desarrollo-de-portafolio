@@ -36,7 +36,8 @@ body {
     top: 0px;
     left: 0px;
     margin: 0%;
-    align-self: center;
+    text-align: justify;
+  
   }
 
 nav {
@@ -74,62 +75,67 @@ nav ul li a {
 
 nav ul li ul {
   display: none;
+
+
 }
 
 nav ul li:hover ul {
   display: block;
 }
 
+nav ul li ul li {
+  width: 100%;
+}
+
 nav ul li ul li a {
   padding: 1rem;
   line-height: unset;
   white-space: nowrap;
+
+
 }
 
-
-  header {
-    padding: 0px;
-    text-align: center;
-  }
-  
   .parrafo .p{
     text-align: center;
     padding-top: 1%;
     width: 100%;
     height: 250px;
+    display: flex
   }
 
   .EDUCACIÓN {
-    padding: 0px;
+    margin:100px 160px;
+    padding: 100px;
     background: #0E0B16;
-    display: flex;
-  }
 
+ }
   .EXPERIENCIA {
-    padding:0px;
+    margin: 100px 160px;
+    padding: 100px;
     background: #0E0B16;
-    display: flex;
   }
 
-  .CURSOS {
+.CURSOS {
+    margin: 100px 160px;
     padding: 0px;
     background: #0E0B16;
-    display:flex
   }
 
-  .Portafolio {
-    background:#E7DFDD;
+.Portafolio.p {
+ text-align: justify;
+ 
+ display: flex;
+ gap: 0px;
+ padding: 2px;
+  }
+
+.Portafolio {
+    margin: 5em 5em;
     display: flex;
     gap: 0px;
     padding: 2px;
     align-self: center;
-  }
-
-  .Portafolio.p{
-    padding: 0px;
-    text-align: center;
-    display: flex;
-  }
+  } 
 
 footer {
     background: hsl(38, 22%, 10%) 0% 0% no-repeat 
@@ -138,6 +144,7 @@ footer {
     width: 100%;
     height: 102px;
   }
+
 footer p {
     text-align: center;
     padding-top: 30px;
